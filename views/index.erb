@@ -4,11 +4,11 @@
   </section>
 
   <section id="description">
-  	<p id="hp-name"><a href="/">Leah Goldberg</a></p>
+  	<p id="hp-name"><a class="scroll" href="#home-page">Leah Goldberg</a></p>
     <p id="subtitle">Full Stack Web Developer</p>
     <ul id="hp-links">
-    	<li><a href="#projects">Projects</a></li>
-    	<li><a href="#about">About</a></li>
+    	<li><a class="scroll" href="#projects">Projects</a></li>
+    	<li><a class="scroll" href="#about">About</a></li>
     </ul>	
     <ul class="social-icons">
       <li><a href="https://github.com/leahgoldberg"><img src="github.png"/></a></li>
@@ -19,11 +19,11 @@
 
 </section> 
 
-<a name="projects">
+<div id="projects">
   <%= erb :projects %>
-</a>
+</div>
 
-<a name="about">
+<div id="about">
   <%= erb :about %>
-</a>    
+</div>    
 
