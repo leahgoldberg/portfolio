@@ -1,14 +1,14 @@
-<main>
+<section id="home-page">
   <section id="main-pic">
     <img src="west-coast.jpg">
   </section>
 
   <section id="description">
-  	<p id="hp-name">Leah Goldberg</p>
+  	<p id="hp-name"><a href="/">Leah Goldberg</a></p>
     <p id="subtitle">Full Stack Web Developer</p>
     <ul id="hp-links">
-    	<li><a href="/projects">Projects</a></li>
-    	<li><a href="/about">About</a></li>
+    	<li><a href="#projects">Projects</a></li>
+    	<li><a href="#about">About</a></li>
     </ul>	
     <ul class="social-icons">
       <li><a href="https://github.com/leahgoldberg"><img src="github.png"/></a></li>
@@ -17,5 +17,13 @@
     </ul> 
   </section>
 
-</main> 
+</section> 
+
+<a name="projects">
+  <%= erb :projects %>
+</a>
+
+<a name="about">
+  <%= erb :about %>
+</a>    
 

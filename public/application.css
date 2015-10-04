@@ -15,17 +15,19 @@ html {
 
 #description {
 	position: absolute;
-	top: 35%;
+	top: 45%;
 	z-index: 1;
 	width: 100%;
 	text-align: center;
 	color: #f7f7f7;
 }
 
-#hp-name {
+#hp-name a{
 	font-family: 'Oswald', serif;
 	text-transform: uppercase;
 	font-size: 46pt;
+	text-decoration: none;
+	color: white;
 }
 
 #subtitle, #hp-links {
