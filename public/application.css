@@ -1,0 +1,89 @@
+html {
+	background-color: #f7f7f7;
+	margin: -8px;
+}
+
+.blog-logo {
+	margin-top: 20px;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	color: #2091C2;
+	font-size: 22pt;
+/*	font-weight: 200;*/
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
+.top-menu {
+	background-color: #f7f7f7;
+	position: fixed;
+	width: 100%;
+	/* brings menu to the front */
+	z-index: 1;
+}
+
+.top-menu ul {
+	float: right;
+	list-style: none;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.top-menu a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 12pt;
+	color: #155F7F;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.top-menu a:visited {
+	color: #155F7F;
+}
+
+.top-menu a:hover {
+	font-weight: 400;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 5px;
+}
+
+#main-pic img {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+#description {
+	position: absolute;
+	top: 24em;
+	left: 2em;
+	color: #f7f7f7;
+	font-family: 'Lekton', serif;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+#description p {
+	padding-left: 40px;
+	line-height: 8pt;
+}
+
+.social-icons ul {
+	list-style: none;	
+	text-align: left;
+}
+
+.social-icons li {
+	display: inline-block;
+	padding-top: 8px;
+}
+
+.social-icons img {
+	height: 2em;
+	width: 2em;
+}
